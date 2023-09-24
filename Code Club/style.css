@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: lavenderblush;
+}
+#page>img{
+    position: absolute;
+    right: 5%;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(83, 51, 51);
+}
+#center-nav{
+    display: flex;
+    gap: 60px;
+}
+#center-nav>a{
+    text-decoration: none;
+    color:lavenderblush; 
+    font-weight: 500;
+    font-size: 17px;
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    text-transform: uppercase;
+}
+#text{
+    padding: 30px 50px;
+    position: relative;
+    top: 18%;
+    left: 8%;
+    height: 75%;
+    width: 35%;
+    scale: 1.1;
+}
+#text>h1{
+    font-size: 50px;
+    color: #36537e;
+    line-height: 1; 
+    margin-top: 25px; 
+}
+#text>h4{
+    margin-top: 30px;
+    color: #36537e;
+     font-size: 17px;
+     font-weight: 500;
+}
+#buttons{
+    position: absolute;
+    left: 0%;
+    bottom: 18%;
+    height: 20%;
+    width: 100%;
+}
+#buttons>button{
+    padding: 10px 22px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    color: lavenderblush;
+}
+#buttons>button>i{
+    font-size: 17px;
+}
+#buttons>#b1{
+    margin-left: 20px;
+    background-color: #36537e;
+}
+#buttons>#b2{
+    margin-left: 20px;
+    background-color: #36537e;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(83, 51, 51);
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.projects{
+    border-top: 2px solid lavenderblush;
+    height: 100%;
+    width: 31%;
+}
+#text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 30%;
+    width: 100%;
+    color: lavenderblush;
+}
+#image{
+    height: 70%;
+    width: 100%;
+}
+#image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.p2{
+    position: relative;
+    top: -20%;
+}
+.p3{
+    position: relative;
+    top: -50%;
+}
+#text4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 20%;
+    width: 30%;
+}
+#text4>h1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: lavenderblush;
+}
+.about{
+    height: 100vh;
+    width: 100vw;
+    background-color: lavenderblush;
+}
+.about img{
+    height: auto;
+    width: 430px;
+    margin-top: 70px;
+}
+.about-text{
+    width: 550px;
+}
+.aboutme{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    margin-top: 100px;
+    color:#36537e;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px; 
+}
+.about-text h5{
+    color:rgb(83, 51, 51);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(83, 51, 51);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
